@@ -1,0 +1,76 @@
+.heading {
+    font-size: 80px;
+    color: palegoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-kerning: normal;
+}
+.container, .headContainer {
+    display: flex;
+    border-radius: 30px;
+    border: solid blue 2px;
+    background-color: darkblue;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.headContainer img {
+    margin: 10px;
+    box-shadow: 0px 8px 10px 5px black;
+}
+p {
+    color: palegoldenrod;
+    margin: 10px;
+}
+body {
+    background-color: black;
+    padding: 10px;
+    align-content: center;
+}
+.headInputContainer {
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    border: solid blue 2px;
+    background-color: darkblue;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.headInputContainer button {
+    margin: 10px;
+}
+.headInputContainer label {
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+}
+.headContainer {
+    flex-direction: row;
+}
+form {
+    width: 200px;
+}
+.userObj {
+    width: 100px;
+}
+.bottomContainer {
+    display: flex;
+    border-radius: 30px;
+    border: solid blue 2px;
+    background-color: darkblue;
+    padding: 5px;
+    bottom: 0px;
+    width: fit-content;
+    align-self: center;
+    position:fixed;
+}
+.canvas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
